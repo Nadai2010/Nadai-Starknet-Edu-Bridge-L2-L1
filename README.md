@@ -37,14 +37,15 @@ Para cada ejercicio, deberá escribir una nueva versión en su contrato, impleme
 
 Este taller es el cuarto de una serie destinada a enseñar cómo construir en StarkNet. Echa un vistazo a lo siguiente:
 
-| Tema | repositorio de GitHub |
-| ---------------------------------------------- | -------------------------------------------------- ------------------------------------ |
-| Aprenda a leer el código de El Cairo | [El Cairo 101](https://github.com/starknet-edu/starknet-cairo-101) |
-| Implemente y personalice un ERC721 NFT | [StarkNet ERC721](https://github.com/starknet-edu/starknet-erc721) |
-| Implemente y personalice un token ERC20 | [StarkNet ERC20](https://github.com/starknet-edu/starknet-erc20) |
-| Cree una aplicación de capa cruzada (usted está aquí) | [Puente de mensajería de StarkNet](https://github.com/starknet-edu/starknet-messaging-bridge) |
-| Depure sus contratos de El Cairo fácilmente | [Depuración de StarkNet](https://github.com/starknet-edu/starknet-debug) |
-| Diseña tu propio contrato de cuenta | [Abstracción de la cuenta de StarkNet](https://github.com/starknet-edu/starknet-accounts) |
+| Tema                                           | GitHub repo                                                                            |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Aprenda a leer el código de El Cairo           | [Cairo 101](https://github.com/starknet-edu/starknet-cairo-101)                        |
+| Implemente y personalice un ERC721 NFT         | [StarkNet ERC721](https://github.com/starknet-edu/starknet-erc721)                     |
+| Implemente y personalice un token ERC20        | [StarkNet ERC20](https://github.com/starknet-edu/starknet-erc20)                       |
+| Cree una app de capa cruzada (usted está aquí) | [StarkNet messaging bridge](https://github.com/starknet-edu/starknet-messaging-bridge) |
+| Depure sus contratos de El Cairo fácilmente    | [StarkNet debug](https://github.com/starknet-edu/starknet-debug)                       |
+| Diseña tu propio contrato de cuenta            | [StarkNet account abstraction](https://github.com/starknet-edu/starknet-accounts)      |
+
 
 ### Proporcionar comentarios y obtener ayuda
 
