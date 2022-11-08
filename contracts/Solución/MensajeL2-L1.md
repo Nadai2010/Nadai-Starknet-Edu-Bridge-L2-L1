@@ -1,6 +1,6 @@
 ## Configuraciones basicas de protostar
 
-Si quiere usar [Protostar](https://github.com/Nadai2010/Nadai-ERC721-Protostar-Cairo#instalaci%C3%B3n), siga esta repo para configurarla, sino evite este punto.
+Antes de empezar asegurese de tener instalado [Protostar](https://github.com/Nadai2010/Nadai-ERC721-Protostar-Cairo#instalaci%C3%B3n)
 
 ## Enviar Mensaje de L2 a L1
 
@@ -27,10 +27,10 @@ Primero iremos ha escribir en el contrato a través de la [página del evaluador
 
 ![Graph](/contracts/Imagenes/ex0a.png)
 
-* [Hash]()
+* [Hash](https://goerli.voyager.online/tx/0x4e2f0d7698426e0eb2bfd5a88c93090625b08a17c149ce84f3a15d90c979542)
 
 
-Una vez esté la transacción verificada en L1 iremos a [*L1 DummyToken*](https://goerli.etherscan.io/address/0x0232CB90523F181Ab4990Eb078Cf890F065eC395) a la función `mint` y pondremos el valor obtenido de la transacción, así como la cantidad de `amount`. Todos los demás valores darán incorrectos valores de gas.
+Una vez esté la transacción verificada en L1 iremos a [*L1 DummyToken*](https://goerli.etherscan.io/address/0x0232CB90523F181Ab4990Eb078Cf890F065eC395) a la función `mint` y pondremos el valor secreto obtenido en la transacción, así como la cantidad de `amount`. Todos los demás valores darán errores e incorrectos valores de gas.
 
 ![Graph](/contracts/Imagenes/sms.png)
 ![Graph](/contracts/Imagenes/mint.png)
@@ -47,22 +47,15 @@ Con esto deberia de ser suficiente para verficar que hayas podido acuñar tokens
 
   - Esto se hace usando [`ex_0_b`](contracts/Evaluator.cairo#L143) del evaluador L2
 
-## Verificación de ejercio
+## Verificación de ejercicio
 
-Ahora estamos listos para enviar nuestro contrato inteligente ERC721 [Deploy ERC20ex02](https://goerli.voyager.online/contract/0x022bb88e1219fddbca1cc9ac3927798e7af0268bbb439733d9a72a47557b7cd1) al [Evaluador](https://goerli.voyager.online/contract/0x14ece8a1dcdcc5a56f01a987046f2bd8ddfb56bc358da050864ae6da5f71394) usando la función de `submit_erc20_solution`. Enviamos así nuestro contrato inteligente ERC20 al Evaluador.
+Si todo salió según lo planeado, deberíamos poder verificar que nuestra billetera Argent X `0x05B23d29C5b33a1cf0c4e50F798f9E22c7254913368996436682852EfCF69f86` si obtuvo 2 puntos en el contrato inteligente [Point Counter](https://goerli.voyager.online/contract/0x38ec18163a6923a96870f3d2b948a140df89d30120afdf90270b02c609f8a88).
 
-![Graph](/contracts/Imagenes/submiterc20ex02.png)
-
-* [Hash](https://goerli.voyager.online/tx/0x54c10d6e85ace788daa130b5e452fdad2f3d5de09f95e0c30bb4109b727893d)
-
-
-Si todo salió según lo planeado, deberíamos poder verificar que nuestra billetera Argent X `0x05B23d29C5b33a1cf0c4e50F798f9E22c7254913368996436682852EfCF69f86` si obtuvo 6 puntos en el contrato inteligente [Point Counter](https://goerli.voyager.online/contract/0x228c0e6db14052a66901df14a9e8493c0711fa571860d9c62b6952997aae58b).
-
-![Graph](/contracts/Imagenes/balanceofex01.png)
+![Graph](/contracts/Imagenes/balanceofex.png)
 
 También puede revisar de una forma mas entretenida sus resultados en la siguiente web 
 
 * https://starknet-tutorials.vercel.app
 
-![Graph](/contracts/Imagenes/puntosex01.png)
+![Graph](/contracts/Imagenes/puntosex.png)
 

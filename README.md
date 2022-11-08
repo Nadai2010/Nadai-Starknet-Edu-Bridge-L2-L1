@@ -98,11 +98,17 @@ Para obtener instrucciones de configuración de producción, escribimos [este ar
 
 #### Opción A: configurar un entorno Python local
 
-- Configure el entorno siguiendo [estas instrucciones] (https://starknet.io/docs/quickstart.html#quickstart)
-- Instale [los contratos cairo de OpenZeppelin] (https://github.com/OpenZeppelin/cairo-contracts).
+- Configure el entorno siguiendo [estas instrucciones](https://starknet.io/docs/quickstart.html#quickstart)
+- Instale [los contratos cairo de OpenZeppelin](https://github.com/OpenZeppelin/cairo-contracts).
 
 ```bash
 pip install openzeppelin-cairo-contratos
+```
+
+Si la error pruebe
+
+```bash
+gh repo clone OpenZeppelin/cairo-contracts
 ```
 
 #### Opción B: usar un entorno dockerizado

@@ -139,6 +139,16 @@ func safeTransferFrom{pedersen_ptr: HashBuiltin*, syscall_ptr: felt*, range_chec
 }
 
 @external
+func create_l1_nft_message{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(l1_user: felt) {
+    let (l2_contract_address) = get_contract_address();
+    let (message_payload: felt*) = alloc();
+    assert message_payload[0] = l1_user;
+    assert message_payload[1] = l2_contract_address;
+    send_message_to_l1(to_address=0x6DD77805FD35c91EF6b2624Ba538Ed920b8d0b4E, payload_size=1, payload=message_payload);
+    return ();
+}
+
+@external
 func mint_from_l1{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(l2_user: felt) {
     alloc_locals;
     let (caller_address) = get_caller_address();
