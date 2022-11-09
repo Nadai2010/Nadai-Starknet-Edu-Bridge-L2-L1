@@ -204,7 +204,7 @@ Escriba e implemente un contrato en L2 que *envíe* mensajes a L1.
 
 ---
 
-* Nadai con Soluciones [Ejercicio 1](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex1.md)
+* Nadai con Soluciones [Ejercicio 1](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex01.md)
 
 ---
 
@@ -221,7 +221,7 @@ Escriba e implemente un contrato en L1 que *envíe* mensajes a L2.
 
 ---
 
-* Nadai con Soluciones [Ejercicio 2](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex2.md)
+* Nadai con Soluciones [Ejercicio 2](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex02.md)
 
 ---
 
@@ -237,7 +237,7 @@ Escriba e implemente un contrato en L1 que *envíe* mensajes a L2.
 
 ---
 
-* Nadai con Soluciones [Ejercicio 3](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex3.md)
+* Nadai con Soluciones [Ejercicio 3](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex03.md)
 
 ---
 
@@ -253,7 +253,7 @@ Escriba e implemente un contrato en L1 que *envíe* mensajes a L2.
 
 ---
 
-* Nadai con Soluciones [Ejercicio 4](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex4.md)
+* Nadai con Soluciones [Ejercicio 4](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex04.md)
 
 ---
 
