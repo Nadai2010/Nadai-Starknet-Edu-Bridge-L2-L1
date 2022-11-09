@@ -15,7 +15,7 @@ from starkware.starknet.common.syscalls import get_contract_address, get_caller_
 func assigned_value() -> (res : felt) {
 }
 
-// ex2 - from l2 to l1
+// ex1 - from l2 to l1
 
 @external
 func create_l1_nft_message{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(l1_user: felt) {
