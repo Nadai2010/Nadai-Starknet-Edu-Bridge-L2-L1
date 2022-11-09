@@ -57,7 +57,7 @@ Una vez que haya terminado de trabajar en este tutorial, ¡sus comentarios será
 Y si tiene dificultades para seguir adelante, ¡háganoslo saber! Este taller está destinado a ser lo más accesible posible; queremos saber si no es el caso.
 
 ​
-¿Tienes una pregunta? Únase a nuestro [servidor Discord] (https://starknet.io/discord), regístrese y únase al canal #tutorials-support
+¿Tienes una pregunta? Únase a nuestro [servidor Discord](https://starknet.io/discord), regístrese y únase al canal #tutorials-support
 ​
 
 ### Contribuyendo
@@ -94,7 +94,7 @@ Hay dos formas de configurar su entorno en StarkNet: una instalación local o us
 - Para usuarios de Mac y Linux, recomendamos
 - Para usuarios de Windows recomendamos docker
 
-Para obtener instrucciones de configuración de producción, escribimos [este artículo] (https://medium.com/starknet-edu/the-ultimate-starknet-dev-environment-716724aef4a7).
+Para obtener instrucciones de configuración de producción, escribimos [este artículo](https://medium.com/starknet-edu/the-ultimate-starknet-dev-environment-716724aef4a7).
 
 #### Opción A: configurar un entorno Python local
 
@@ -184,6 +184,12 @@ Use un contrato implementado previamente para acuñar tokens ERC20 en L1 desde L
   - Esta función verifica que hayas podido acuñar tokens ERC20 y luego enviará un mensaje a L2 para acreditar tus puntos
   - Esto se hace usando [`ex_0_b`](contracts/Evaluator.cairo#L143) del evaluador L2
 
+---
+
+* Nadai con Soluciones [Ejercicio 0](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex0.md)
+
+---
+
 ### Ejercicio 1 - Envía un mensaje L2→L1 con tu contrato (2 pts)
 
 Escriba e implemente un contrato en L2 que *envíe* mensajes a L1.
@@ -196,6 +202,12 @@ Escriba e implemente un contrato en L2 que *envíe* mensajes a L1.
 - Llame a [`createNftFromL2`](contracts/L1/MessagingNft.sol#L35) de L1 MessagingNft para activar el consumo de mensajes en L1
   - L1 MessagingNft [devuelve](contracts/L1/MessagingNft.sol#L47) un mensaje a L2 para [acreditar sus puntos](contracts/Evaluator.cairo#L205) en L2
 
+---
+
+* Nadai con Soluciones [Ejercicio 1](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex01.md)
+
+---
+
 ### Ejercicio 2 - Envía un mensaje L1→L2 con tu contrato (2 pts)
 
 Escriba e implemente un contrato en L1 que *envíe* mensajes a L2.
@@ -207,6 +219,12 @@ Escriba e implemente un contrato en L1 que *envíe* mensajes a L2.
 - Despliega tu contrato
 - Activar el envío de mensajes en L1. Sus puntos se atribuyen automáticamente en L2.
 
+---
+
+* Nadai con Soluciones [Ejercicio 2](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex02.md)
+
+---
+
 ### Ejercicio 3 - Recibe un mensaje L2→L1 con tu contrato (2 pts)
 
 - Escriba un contrato en L1 que recibirá un mensaje de la función [`ex3_a`](contracts/Evaluator.cairo#L231).
@@ -217,6 +235,13 @@ Escriba e implemente un contrato en L1 que *envíe* mensajes a L2.
 - Llame a [`ex3`](contracts/L1/Evaluator.sol#L32) de *L1 Evaluator*, que activa el consumo de mensajes de su contrato L1
   - El evaluador de L1 también [devolverá](contracts/L1/Evaluator.sol#L57) un mensaje a L2 para distribuir sus puntos
 
+---
+
+* Nadai con Soluciones [Ejercicio 3](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex03.md)
+
+---
+
+
 ### Ejercicio 4 - Recibe un mensaje L1→L2 con tu contrato (2 pts)
 
 - Escribir un contrato L2 que pueda recibir un mensaje de [`ex4`](contracts/L1/Evaluator.sol#L60) de [*L1 Evaluator*](https://goerli.etherscan.io/address/0x8055d587A447AE186d1589F7AAaF90CaCCc30179 )
@@ -225,6 +250,12 @@ Escriba e implemente un contrato en L1 que *envíe* mensajes a L2.
 - Llame a [`ex4`](contracts/L1/Evaluator.sol#L60) de *L1 Evaluator* para enviar el valor aleatorio a su contrato L2
 - Envíe la dirección de su contrato L2 llamando a [`submit_exercise`](contracts/Evaluator.cairo#L166) de *L2 Evaluator*
 - Llame a [`ex4_b`](contracts/Evaluator.cairo#L266) de *L2 Evaluator* que verificará que completó su trabajo correctamente y distribuirá sus puntos
+
+---
+
+* Nadai con Soluciones [Ejercicio 4](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Soluci%C3%B3n/ex04.md)
+
+---
 
 ## Anexo - Herramientas y recursos útiles
 
