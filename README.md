@@ -57,7 +57,7 @@ Una vez que haya terminado de trabajar en este tutorial, ¡sus comentarios será
 Y si tiene dificultades para seguir adelante, ¡háganoslo saber! Este taller está destinado a ser lo más accesible posible; queremos saber si no es el caso.
 
 ​
-¿Tienes una pregunta? Únase a nuestro [servidor Discord] (https://starknet.io/discord), regístrese y únase al canal #tutorials-support
+¿Tienes una pregunta? Únase a nuestro [servidor Discord](https://starknet.io/discord), regístrese y únase al canal #tutorials-support
 ​
 
 ### Contribuyendo
