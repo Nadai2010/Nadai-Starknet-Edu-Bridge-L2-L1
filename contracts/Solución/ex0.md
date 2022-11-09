@@ -2,19 +2,22 @@
 
 Antes de empezar asegurese de tener instalado [Protostar](https://github.com/Nadai2010/Nadai-ERC721-Protostar-Cairo#instalaci%C3%B3n)
 
+---
+
 ## Enviar Mensaje de L2 a L1
 
 Use un contrato implementado previamente para acuñar tokens ERC20 en L1 desde L2. Se pasa un mensaje secreto con los mensajes; asegúrese de encontrarlo para acumular sus puntos.
 
-- Llamar a la función [`ex_0_a`](contracts/Evaluator.cairo#L121) of [*L2 Evaluator*](https://goerli.voyager.online/contract/0x595bfeb84a5f95de3471fc66929710e92c12cce2b652cd91a6fef4c5c09cd99)
+- Llamar a la función [`ex_0_a`](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Evaluator.cairo#L121) of [*L2 Evaluator*](https://goerli.voyager.online/contract/0x595bfeb84a5f95de3471fc66929710e92c12cce2b652cd91a6fef4c5c09cd99)
 - Debe especificar una dirección L1 y una cantidad de ERC20 para acuñar
 - El mensaje secreto se envía de L2 a L1 en esta etapa.
-- Llame a [`mint`](contracts/L1/DummyToken.sol#L37) de [*L1 DummyToken*](https://goerli.etherscan.io/address/0x0232CB90523F181Ab4990Eb078Cf890F065eC395)
+- Llame a [`mint`](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/L1/DummyToken.sol#L37) de [*L1 DummyToken*](https://goerli.etherscan.io/address/0x0232CB90523F181Ab4990Eb078Cf890F065eC395)
   - Debe demostrar que conoce el valor secreto en este paso
-- Llame a [`i_have_tokens`](contracts/L1/DummyToken.sol#L48) de [*L1 DummyToken*](https://goerli.etherscan.io/address/0x0232CB90523F181Ab4990Eb078Cf890F065eC395)
+- Llame a [`i_have_tokens`](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/L1/DummyToken.sol#L48) de [*L1 DummyToken*](https://goerli.etherscan.io/address/0x0232CB90523F181Ab4990Eb078Cf890F065eC395)
   - Esta función verifica que hayas podido acuñar tokens ERC20 y luego enviará un mensaje a L2 para acreditar tus puntos
-  - Esto se hace usando [`ex_0_b`](contracts/Evaluator.cairo#L143) del evaluador L2
+  - Esto se hace usando [`ex_0_b`](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Evaluator.cairo#L143) del evaluador L2
 
+---
 
 ## Solución
 
@@ -50,7 +53,9 @@ Ahora podemos llamara a la función `i_have_tokens` de [*L1 DummyToken*](https:/
 
 Con esto deberia de ser suficiente para verficar que hayas podido acuñar tokens ERC20, luego enviará un mensaje a L2 para acreditar tus puntos.
 
-  - Esto se hace usando [`ex_0_b`](contracts/Evaluator.cairo#L143) del evaluador L2
+  - Esto se hace usando [`ex_0_b`](https://github.com/Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1/blob/master/contracts/Evaluator.cairo#L143) del evaluador L2
+
+---
 
 ## Verificación de ejercicio
 
