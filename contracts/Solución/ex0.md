@@ -29,19 +29,24 @@ Primero iremos ha escribir en el contrato a través de la [página del evaluador
 
 * [Hash](https://goerli.voyager.online/tx/0x4e2f0d7698426e0eb2bfd5a88c93090625b08a17c149ce84f3a15d90c979542)
 
+---
 
 Una vez esté la transacción verificada en L1 iremos a [*L1 DummyToken*](https://goerli.etherscan.io/address/0x0232CB90523F181Ab4990Eb078Cf890F065eC395) a la función `mint` y pondremos el valor secreto obtenido en la transacción, así como la cantidad de `amount`. Todos los demás valores darán errores e incorrectos valores de gas.
 
-![Graph](/contracts/Imagenes/sms.png)
+![Graph](/contracts/Imagenes/secretex0.png)
 ![Graph](/contracts/Imagenes/mint.png)
 
-* [Hash]()
+* [Hash](https://goerli.etherscan.io/tx/0x1603a0aedfff80789123dadd4a5b65b6742237ade6108c7070b345b388f4b14c)
+
+---
 
 Ahora podemos llamara a la función `i_have_tokens` de [*L1 DummyToken*](https://goerli.etherscan.io/address/0x0232CB90523F181Ab4990Eb078Cf890F065eC395) en cual tendremos que añadir el `usario de L2` de Starknet utilizado y el `valor secreto`
 
 ![Graph](/contracts/Imagenes/have.png)
 
-* [Hash]()
+* [Hash](https://goerli.etherscan.io/tx/0x9854fd4bf69b9f2b7924f04cb5f02b4ef6fc4bd7fd96395de3fdb53731da550c)
+
+---
 
 Con esto deberia de ser suficiente para verficar que hayas podido acuñar tokens ERC20, luego enviará un mensaje a L2 para acreditar tus puntos.
 
