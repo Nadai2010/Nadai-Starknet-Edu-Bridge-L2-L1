@@ -5,6 +5,6 @@ protostar_version = "0.6.0"
 libs_path = "lib"
 
 ["protostar.contracts"]
-MensajeL1-L2 = [
-    "contracts/MensajeL1-L2.cairo",
+ex4 = [
+    "contracts/ex4.cairo",
 ]
