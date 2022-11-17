@@ -83,7 +83,7 @@ cd starknet-messaging-bridge
 * Nadai con Soluciones
 
 ```bash
-git clone Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1
+gh repo clone Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1
 cd Nadai-Starknet-Edu-Bridge-L2-L1
 ```
 
