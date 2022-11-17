@@ -76,14 +76,14 @@ Este proyecto se puede mejorar y evolucionará a medida que StarkNet madure. ¡S
 *  Oficial
 
 ```bash
-clon de git https://github.com/starknet-edu/starknet-messaging-bridge
+git clone https://github.com/starknet-edu/starknet-messaging-bridge
 cd starknet-messaging-bridge
 ```
 
 * Nadai con Soluciones
 
 ```bash
-gh repo clone Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1
+git clone Nadai2010/Nadai-Starknet-Edu-Bridge-L2-L1
 cd Nadai-Starknet-Edu-Bridge-L2-L1
 ```
 
